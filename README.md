@@ -5,3 +5,4 @@ TODO:
 add time reader
 add a folder for target musics to be played as alarm
 add a simple GUI if possible
+add a live time viewer
