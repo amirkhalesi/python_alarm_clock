@@ -1,6 +1,13 @@
 import time
 import os
-import sys
+from subprocess import call
+from playsound import playsound
 
 def play_alarm ():
-    pass
+    call(['clear'])
+    print ('\n\n        ALARM!')
+    playsound('alarms/King_Nothing.MP3')
+
+print ('\n\n        ALARM!')
+
+#playsound('../alarms/King_Nothing.MP3')
